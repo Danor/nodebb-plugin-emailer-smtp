@@ -1,0 +1,33 @@
+{
+  "name": "nodebb-plugin-emailer-smtp",
+  "version": "1.0.0",
+  "description": "Plugin for NodeBB allowing you to send e-mail via SMTP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "testing!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danor/nodebb-plugin-emailer-smtp.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "emailer",
+    "mail",
+    "smtp"
+  ],
+  "author": "Danor danor@fastmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Danor/nodebb-plugin-emailer-smtp/issues"
+  },
+  "homepage": "https://github.com/Danor/nodebb-plugin-emailer-smtp#readme",
+  "dependencies": {
+    "nodemailer": "~2.3.0",
+    "path": "~0.12.7"
+  },
+  "nbbpm": {
+    "compatibility": "^1.1.2"
+  }
+}
