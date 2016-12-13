@@ -31,7 +31,7 @@ Emailer.send = function(data, callback) {
     var smtpConfig = {
         host: settings['emailer:local:host'],
         port: settings['emailer:local:port'],
-        secure: settings['emailer:local:secure'],
+        secure: settings['emailer:local:secure'] !== 'off',
         auth: {
             user: settings['emailer:local:username'],
             pass: settings['emailer:local:password'],
